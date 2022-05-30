@@ -15,19 +15,19 @@
             <form>
                 <div class="text">
                     <label for="name" class="label">Name</label>
-                    <input type="text" placeholder="Enter your name" id="name">
+                    <input type="text" placeholder="Enter your name" id="name" required>
                 </div>
                 <div class="text">
                     <label for="Email" class="label">Email</label>
-                    <input type="email" placeholder="Enter your Email" id="email">
+                    <input type="email" placeholder="Enter your Email" id="email" required>
                 </div>
                 <div class="text">
                     <label for="Age" class="label">Age <small>(Optional)</small></label>
-                    <input type="Text" placeholder="Enter your age" id="age">
+                    <input type="Text" placeholder="Enter your age" id="age" required>
                 </div>
                 <div class="text">
                     <label for="role" class="label">Which option best describes your current role?</label>
-                    <select name="role" id="role" >
+                    <select name="role" id="role" required>
                             <option value="0" disabled selected>Select an option</option>
                             <option value="1">Student</option>
                             <option value="2">Full-time job</option>
@@ -40,22 +40,22 @@
                     <p class="label">Would you recommend freeCodeCamp to a friend?</p>
                     <div class="radio">
                         <div class="box">
-                            <input type="radio" name="recommendation" id="Definitely">
+                            <input type="radio" name="recommendation" id="Definitely" required>
                             <label for="Definitely" class="label">Definitely</label>
                         </div>
                         <div class="box">
-                            <input type="radio" name="recommendation" id="Maybe">
+                            <input type="radio" name="recommendation" id="Maybe" required>
                             <label for="Maybe" class="label">Maybe</label>
                         </div>
                         <div class="box">
-                            <input type="radio" name="recommendation" id="Not sure">
+                            <input type="radio" name="recommendation" id="Not sure" required>
                             <label for="Not sure" class="label">Not sure</label>
                         </div>
                     </div>    
                 </div>
                 <div class="text">
                     <label for="feature" class="label">What is your favorite feature of freeCodeCamp?</label>
-                    <select name="feature" id="feature">
+                    <select name="feature" id="feature" required>
                             <option value="0" disabled selected>Select an option</option>
                             <option value="1">Challenges</option>
                             <option value="2">projects</option>
